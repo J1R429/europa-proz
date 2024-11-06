@@ -1,0 +1,102 @@
+/* Estilos gerais */
+body {
+    background-color: lightyellow;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o header */
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Linha com menu, entre e cadastre-se */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Linha com o título "Visite outros lugares no mundo" */
+.visite {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Lista de lugares */
+.lugares {
+    list-style: none; /* Remove marcadores */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: red;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 8px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+/* Estilo para os itens de lista de descrição */
+dl dt {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFD700;
+    text-align: center;
+}
+
+/* Estilo para as imagens dentro dos países */
+.imagens-pais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Estilos individuais para cada imagem */
+.imagens-pais img {
+    width: 160px; /* Aproximadamente 4 dedos */
+    height: 120px; /* Aproximadamente 3 dedos */
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: #FFFFE0; /* Amarelo claro */
+    padding: 5px;
+}
+
+/* Estilo para os parágrafos de descrição */
+dd {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: white; 
+    text-align: center;      
+    padding: 20px 0;         
+    margin-top: 20px;         
+    border-top: 2px solid #ccc; 
+}
+
+/* Estilos para o texto dentro do footer */
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: black;
+}
